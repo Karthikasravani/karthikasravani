@@ -1,0 +1,21 @@
+aut.py
+	input:
+	text file with filenames and expected results.
+	each filename and expected result should be seperated by tab space
+	filenames should be given in new lines
+
+	This code will read the txt and compares the expected results with result returned by code.bmi method
+
+code.py
+	input:
+	json file
+
+	code:
+	A module containing the bmi method. which calculates the bmi,total no.of over weight patients and gives the health risk
+
+	output:
+	prints the health risk and bmi category
+	prints total number of overweight patients
+
+testing.txt
+	Contains the json filenames and expected result to test with
